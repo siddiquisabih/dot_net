@@ -1,0 +1,32 @@
+# .NET-related ignores
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.csproj.user
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains IDE
+.idea/
+*.sln.iml
+
+# NuGet Packages
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+
+# Exclude MacOS system files
+.DS_Store

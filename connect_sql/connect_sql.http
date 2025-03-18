@@ -1,0 +1,6 @@
+@connect_sql_HostAddress = http://localhost:5264
+
+GET {{connect_sql_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

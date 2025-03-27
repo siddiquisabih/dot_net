@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sabih\\source\\repos\\Hubspot_connection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20E7B522-5248-48A5-8D6F-A2CC2FE8AD80}|Hubspot_connection\\Hubspot_connection.csproj|c:\\users\\sabih\\source\\repos\\hubspot_connection\\hubspot_connection\\controllers\\crmcontactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E7B522-5248-48A5-8D6F-A2CC2FE8AD80}|Hubspot_connection\\Hubspot_connection.csproj|solutionrelative:hubspot_connection\\controllers\\crmcontactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E7B522-5248-48A5-8D6F-A2CC2FE8AD80}|Hubspot_connection\\Hubspot_connection.csproj|c:\\users\\sabih\\source\\repos\\hubspot_connection\\hubspot_connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E7B522-5248-48A5-8D6F-A2CC2FE8AD80}|Hubspot_connection\\Hubspot_connection.csproj|solutionrelative:hubspot_connection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sabih\\source\\repos\\Hubspot_connection\\Hubspot_connection\\Program.cs",
+              "RelativeDocumentMoniker": "Hubspot_connection\\Program.cs",
+              "ToolTip": "C:\\Users\\Sabih\\source\\repos\\Hubspot_connection\\Hubspot_connection\\Program.cs",
+              "RelativeToolTip": "Hubspot_connection\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T06:35:52.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrmContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\Sabih\\source\\repos\\Hubspot_connection\\Hubspot_connection\\Controllers\\CrmContactsController.cs",
+              "RelativeDocumentMoniker": "Hubspot_connection\\Controllers\\CrmContactsController.cs",
+              "ToolTip": "C:\\Users\\Sabih\\source\\repos\\Hubspot_connection\\Hubspot_connection\\Controllers\\CrmContactsController.cs",
+              "RelativeToolTip": "Hubspot_connection\\Controllers\\CrmContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T06:34:17.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Tatweer.YourServiceName.Blazor.Host.Client": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63141;http://localhost:63142"
+    }
+  }
+}

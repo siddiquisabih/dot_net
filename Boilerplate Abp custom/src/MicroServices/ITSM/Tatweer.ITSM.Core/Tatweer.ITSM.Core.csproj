@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Tatweer.ITSM.Core</AssemblyName>
+    <PackageId>Tatweer.ITSM.Core</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <UserSecretsId>Tatweer-ITSM-56C2EF2F-ABD6-4EFC-AAF2-2E81C34E8FB1</UserSecretsId>
+    <RootNamespace>Tatweer.ITSM</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\SourceFiles\*.xml" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Authorization\Roles\**" />
+    <Compile Remove="Authorization\Users\**" />
+    <Compile Remove="Identity\**" />
+    <Compile Remove="MultiTenancy\**" />
+    <EmbeddedResource Remove="Authorization\Roles\**" />
+    <EmbeddedResource Remove="Authorization\Users\**" />
+    <EmbeddedResource Remove="Identity\**" />
+    <EmbeddedResource Remove="MultiTenancy\**" />
+    <None Remove="Authorization\Roles\**" />
+    <None Remove="Authorization\Users\**" />
+    <None Remove="Identity\**" />
+    <None Remove="MultiTenancy\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Authorization\LoginManager.cs" />
+    <Compile Remove="Authorization\PermissionChecker.cs" />
+    <Compile Remove="Features\FeatureValueStore.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.AutoMapper" Version="9.2.2" />
+    <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="9.2.2" />
+    <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="4.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Tatweer.SafeCity.Core\Tatweer.SafeCity.Core.csproj" />
+  </ItemGroup>
+</Project>

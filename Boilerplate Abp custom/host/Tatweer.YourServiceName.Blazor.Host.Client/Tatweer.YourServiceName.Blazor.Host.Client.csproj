@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+    <RootNamespace>Tatweer.YourServiceName.Blazor.Host.Client</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazorise.Bootstrap5" Version="1.6.2" />
+    <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.6.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Autofac.WebAssembly" Version="9.1.0" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme" Version="9.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Account.Application.Contracts" Version="9.1.0" />
+    <PackageReference Include="Volo.Abp.Identity.Blazor.WebAssembly" Version="9.1.0" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Blazor.WebAssembly" Version="9.1.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Blazor.WebAssembly" Version="9.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tatweer.YourServiceName.Host.Shared\Tatweer.YourServiceName.Host.Shared.csproj" />
+    <ProjectReference Include="..\..\src\Tatweer.YourServiceName.Blazor.WebAssembly\Tatweer.YourServiceName.Blazor.WebAssembly.csproj" />
+  </ItemGroup>
+
+</Project>

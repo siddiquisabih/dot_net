@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Tatweer.YourServiceName</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="9.0.0" />
+    <ProjectReference Include="..\..\src\Tatweer.YourServiceName.EntityFrameworkCore\Tatweer.YourServiceName.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Tatweer.YourServiceName.Application.Tests\Tatweer.YourServiceName.Application.Tests.csproj" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="9.1.0" />
+
+  </ItemGroup>
+
+</Project>

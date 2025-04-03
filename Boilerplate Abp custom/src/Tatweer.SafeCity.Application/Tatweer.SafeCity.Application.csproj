@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Tatweer.SafeCity.Application</AssemblyName>
+    <PackageId>Tatweer.SafeCity.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>Tatweer.SafeCity</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HubSpot.NETCORE" Version="1.0.49" />
+    <PackageReference Include="Postmark" Version="5.0.0" />
+    <PackageReference Include="SquaredUp.HubSpot.NET" Version="0.6.17" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tatweer.SafeCity.Core\Tatweer.SafeCity.Core.csproj" />
+  </ItemGroup>
+</Project>

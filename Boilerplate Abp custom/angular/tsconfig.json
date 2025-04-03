@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@tatweer/your-service-name": [
+        "projects/your-service-name/src/public-api.ts"
+      ],
+      "@tatweer/your-service-name/config": [
+        "projects/your-service-name/config/src/public-api.ts"
+      ],
+      "@proxy": ["projects/your-service-name/src/lib/proxy/index.ts"],
+      "@proxy/*": ["projects/your-service-name/src/lib/proxy/*"]
+    }
+  }
+}

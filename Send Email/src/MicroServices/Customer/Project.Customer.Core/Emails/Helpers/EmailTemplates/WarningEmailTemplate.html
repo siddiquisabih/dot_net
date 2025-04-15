@@ -1,0 +1,63 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mail template</title>
+    <style>
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v7/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+        }
+
+        table, td, th {
+            border: 1px solid black;
+            font-family: 'Montserrat', sans-serif;
+            padding: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td {
+            height: 50px;
+            vertical-align: middle;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <div style="width: 550px;background-color: white;border: 1px solid #DDDDDD;margin-right: auto;margin-left: auto;">
+        <div style="margin-top: -17px;margin-bottom: -6px;">
+            <div>
+                <img src="cid:capture" style="width: 350px;float: left;">
+                <img src="cid:admLogo" style="width: 190px;float: right;">
+            </div>
+            <p style="text-align: center;"><a href="https://ats.adm.gov.ae/"><img src="cid:atsLogo" style="width:70%;"></a></p>
+            <hr style="margin-top:10px;margin-bottom:65px;border-bottom:4px solid #0c5bb1;background: #0c5bb1;height: 3px;">
+
+            <div style="margin-left:30px;margin-right:30px;">
+                <div style="background:#C43;border-radius:10px;color:#fff;text-align:center;position: relative;padding: 0 10px;height:300px">
+                    <p style="font-weight: 100;font-size: 30px;line-height: 1.3em;margin: 15px 0;font-family: monospace;">
+                        Warning Email
+                    </p>
+                    <p style="font-weight: 100;font-size: 20px;line-height: 1.3em;margin: 15px 0;font-family: monospace;">
+                        Please note: That you have a pending action, kindly take the required action to avoid project deactivation.
+                    </p>
+                    <p style="font-family: monospace;font-weight:bold">#Message#</p>
+                    <br />
+                </div>
+            </div>
+            <hr style="margin-bottom:20px;margin-top:65px;border-bottom:4px solid #0c5bb1;background: #0c5bb1;height: 3px;">
+            <p style="text-align:center;padding: 0;margin: 0;">
+                <img src="cid:emailFooter" style="width: 100%;height: 20px;">
+            </p>
+
+        </div>
+    </div>
+
+</body>
+</html>

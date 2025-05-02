@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <RootNamespace>Project.Customer</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="EntityFrameworkCore\Seed\Host\**" />
+    <Compile Remove="EntityFrameworkCore\Seed\Tenants\**" />
+    <EmbeddedResource Remove="EntityFrameworkCore\Seed\Host\**" />
+    <EmbeddedResource Remove="EntityFrameworkCore\Seed\Tenants\**" />
+    <None Remove="EntityFrameworkCore\Seed\Host\**" />
+    <None Remove="EntityFrameworkCore\Seed\Tenants\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Project.Customer.Core\Project.Customer.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Global.Project.Migrator</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Global.Project.Migrator</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="appsettings.json;log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.Castle.Log4Net" Version="9.2.2" />
+    <PackageReference Include="HubSpot.NETCORE" Version="1.0.49" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Global.Project.Core\Global.Project.Core.csproj" />
+    <ProjectReference Include="..\Global.Project.EntityFrameworkCore\Global.Project.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+</Project>

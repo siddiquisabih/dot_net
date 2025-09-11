@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="ur">
+	<texts>
+		<text name="InvalidUserNameOrPassword" value="غلط صارف نام یا پاس ورڈ" />
+		<text name="ThereIsNoTenantDefinedWithName{0}" value="نام {0} کے ساتھ کوئی کرایہ دار متعین نہیں ہے" />
+		<text name="TenantIsNotActive" value="کرایہ دار {0} فعال نہیں ہے۔" />
+		<text name="UserIsNotActiveAndCanNotLogin" value="صارف {0} فعال نہیں ہے اور لاگ ان نہیں کر سکتا۔" />
+		<text name="UserEmailIsNotConfirmedAndCanNotLogin" value="آپ کا ای میل ایڈریس تصدیق شدہ نہیں ہے۔ آپ لاگ ان نہیں کر سکتے۔" />
+		<text name="UserLockedOutMessage" value="صارف کا اکاؤنٹ لاک کر دیا گیا ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں۔" />
+		<text name="LoginFailed" value="لاگ ان ناکام ہوا!" />
+		<text name="CouldNotValidateExternalUser" value="بیرونی صارف کی توثیق نہیں ہو سکی" />
+		<text name="User_not_found_with_email" value="ای میل کے ساتھ صارف نہیں ملا" />
+		<text name="Account_is_not_active_contact_support" value="اکاؤنٹ فعال نہیں ہے۔ مزید معلومات کے لیے ہماری سپورٹ سے رابطہ کریں" />
+		<text name="OTP_has_been_sent_to_your_email" value="OTP آپ کے ای میل پر بھیجا گیا ہے" />
+		<text name="Email_not_found" value="ای میل نہیں ملا" />
+		<text name="error" value="{0} خرابی" />
+		<text name="Invalid_OTP_or_OTP_expired" value="OTP غلط ہے یا اس کی معیاد ختم ہو چکی ہے" />
+		<text name="User_Id_is_required" value="صارف کی شناخت ضروری ہے" />
+		<text name="Refresh_Token_is_required" value="ریفریش ٹوکن درکار ہے" />
+		<text name="Invalid_Refresh_Token" value="غلط ریفریش ٹوکن" />
+		<text name="User_not_with_provided_User_Id" value="دی گئی صارف شناخت کے ساتھ کوئی صارف نہیں ملا" />
+		<text name="Provide_enum_size_or_weight)" value="براہ کرم قسم فراہم کریں (SIZE یا WEIGHT)" />
+		<text name="Maximum_files_are_allowed" value="زیادہ سے زیادہ {0} فائلز کی اجازت ہے" />
+		<text name="File_exceeds_maximum_size_limit" value="فائل {0} زیادہ سے زیادہ سائز کی حد سے تجاوز کر گئی ہے" />
+		<text name="no_record_found" value="کوئی ریکارڈ نہیں ملا" />
+		<text name="email_exist_try_another" value="ای میل {0} پہلے سے موجود ہے۔ براہ کرم دوسری ای میل آزمائیں" />
+		<text name="company_name_required" value="کمپنی کا نام درکار ہے" />
+		<text name="file_not_found" value="فائل نہیں ملی" />
+		<text name="email_is_required" value="ای میل درکار ہے" />
+		<text name="customer_id_required" value="کسٹمر معلومات کی شناخت درکار ہے" />
+		
+	</texts>
+</localizationDictionary>

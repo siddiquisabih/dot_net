@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="ar">
+	<texts>
+		<text name="InvalidUserNameOrPassword" value="اسم المستخدم أو كلمة المرور غير صحيحة" />
+		<text name="ThereIsNoTenantDefinedWithName{0}" value="لا يوجد مستأجر بالاسم {0}" />
+		<text name="TenantIsNotActive" value="المستأجر {0} غير نشط." />
+		<text name="UserIsNotActiveAndCanNotLogin" value="المستخدم {0} غير نشط ولا يمكنه تسجيل الدخول." />
+		<text name="UserEmailIsNotConfirmedAndCanNotLogin" value="عنوان بريدك الإلكتروني غير مؤكد. لا يمكنك تسجيل الدخول." />
+		<text name="UserLockedOutMessage" value="تم قفل حساب المستخدم. الرجاء المحاولة لاحقًا." />
+		<text name="LoginFailed" value="فشل تسجيل الدخول!" />
+		<text name="CouldNotValidateExternalUser" value="تعذر التحقق من المستخدم الخارجي" />
+		<text name="User_not_found_with_email" value="لم يتم العثور على مستخدم بهذا البريد الإلكتروني" />
+		<text name="Account_is_not_active_contact_support" value="الحساب غير نشط. يرجى الاتصال بالدعم لمزيد من المعلومات" />
+		<text name="OTP_has_been_sent_to_your_email" value="تم إرسال رمز التحقق (OTP) إلى بريدك الإلكتروني" />
+		<text name="Email_not_found" value="لم يتم العثور على البريد الإلكتروني" />
+		<text name="error" value="خطأ {0}" />
+		<text name="Invalid_OTP_or_OTP_expired" value="رمز التحقق غير صالح أو منتهي الصلاحية" />
+		<text name="User_Id_is_required" value="معرّف المستخدم مطلوب" />
+		<text name="Refresh_Token_is_required" value="رمز التحديث مطلوب" />
+		<text name="Invalid_Refresh_Token" value="رمز التحديث غير صالح" />
+		<text name="User_not_with_provided_User_Id" value="لا يوجد مستخدم بمعرّف المستخدم المقدم" />
+		<text name="Provide_enum_size_or_weight)" value="يرجى تقديم النوع (الحجم أو الوزن)" />
+		<text name="Maximum_files_are_allowed" value="يسمح بحد أقصى {0} من الملفات" />
+		<text name="File_exceeds_maximum_size_limit" value="الملف {0} يتجاوز الحد الأقصى للحجم المسموح به" />
+		<text name="no_record_found" value="لم يتم العثور على أي سجل" />
+		<text name="email_exist_try_another" value="البريد الإلكتروني {0} موجود بالفعل. يرجى تجربة بريد إلكتروني آخر" />
+		<text name="company_name_required" value="اسم الشركة مطلوب" />
+		<text name="file_not_found" value="الملف غير موجود" />
+		<text name="email_is_required" value="البريد الإلكتروني مطلوب" />
+		<text name="customer_id_required" value="معرّف معلومات العميل مطلوب" />
+
+	</texts>
+</localizationDictionary>
